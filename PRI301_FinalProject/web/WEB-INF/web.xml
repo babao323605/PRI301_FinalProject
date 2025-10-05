@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <!-- Application Name -->
+    <display-name>Leave Management System</display-name>
+    
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>login</welcome-file>
+    </welcome-file-list>
+    
+    <!-- Session Configuration -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+    <!-- Error Pages -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/view/error/404.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <error-code>403</error-code>
+        <location>/view/error/403.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <error-code>500</error-code>
+        <location>/view/error/500.jsp</location>
+    </error-page>
+    
+    <!-- JSTL Configuration -->
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+    
+    <!-- Servlet Mappings (backup - annotations should work) -->
+    <servlet>
+        <servlet-name>AgendaServlet</servlet-name>
+        <servlet-class>controller.AgendaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgendaServlet</servlet-name>
+        <url-pattern>/request/agenda</url-pattern>
+    </servlet-mapping>
+</web-app>
