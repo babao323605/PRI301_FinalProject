@@ -10,10 +10,9 @@ import java.sql.SQLException;
 public class DBContext {
     
     // Cấu hình database - Thay đổi theo môi trường của bạn
-    private static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=LeaveManagement";
+    private static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=LeaveManagement;encrypt=true;trustServerCertificate=true;";
     private static final String DB_USER = "sa";
     private static final String DB_PASSWORD = "12345";
-    
     /**
      * Lấy kết nối đến database
      */
