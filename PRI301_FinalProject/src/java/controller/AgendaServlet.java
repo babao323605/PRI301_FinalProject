@@ -20,6 +20,7 @@ import java.util.*;
  */
 @WebServlet(name = "AgendaServlet", urlPatterns = {"/request/agenda"})
 public class AgendaServlet extends HttpServlet {
+    
     private RequestDAO requestDAO;
     private UserDAO userDAO;
     private SimpleDateFormat dateFormat;

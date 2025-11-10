@@ -3,16 +3,40 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/CreateRequestServlet.java</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/DepartmentDAO.java</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/review-request.jsp</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/AgendaServlet.java</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/agenda.jsp</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/css/style.css</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/UserDAO.java</file>
             <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dal/DBContext.java</file>
-            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/home.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/DepartmentDAO.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/NotificationDAO.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/ReviewRequestServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/CreateRequestServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/Role.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/AgendaServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/list-request.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/agenda.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/Notification.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/components/footer.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/index.html</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/review-request.jsp</file>
             <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/login.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/Department.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/Request.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/RequestDAO.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/User.java</file>
             <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/create-request.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/filter/AuthorizationFilter.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/components/header.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/css/style.css</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/LogoutServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/web/view/home.jsp</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/HomeServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/ListRequestServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/model/Feature.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/NotificationServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/filter/AuthenticationFilter.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/controller/LoginServlet.java</file>
+            <file>file:/C:/Users/Ba%20Bao/Downloads/PRI301_FinalProject/PRI301_FinalProject/src/java/dao/RoleDAO.java</file>
         </group>
     </open-files>
 </project-private>

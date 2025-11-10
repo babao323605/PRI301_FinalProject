@@ -22,10 +22,6 @@ public class LoginServlet extends HttpServlet {
     
     /**
      * GET - Hiển thị form login
-     * @param request
-     * @param response
-     * @throws jakarta.servlet.ServletException
-     * @throws java.io.IOException
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -43,10 +39,6 @@ public class LoginServlet extends HttpServlet {
     
     /**
      * POST - Xử lý đăng nhập
-     * @param request
-     * @param response
-     * @throws jakarta.servlet.ServletException
-     * @throws java.io.IOException
      */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
