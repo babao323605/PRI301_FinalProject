@@ -27,6 +27,10 @@ public class ReviewRequestServlet extends HttpServlet {
     
     /**
      * GET - Hiển thị form review
+     * @param request
+     * @param response
+     * @throws jakarta.servlet.ServletException
+     * @throws java.io.IOException
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -65,6 +69,10 @@ public class ReviewRequestServlet extends HttpServlet {
     
     /**
      * POST - Xử lý approve/reject
+     * @param request
+     * @param response
+     * @throws jakarta.servlet.ServletException
+     * @throws java.io.IOException
      */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

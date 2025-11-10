@@ -13,6 +13,7 @@ public class DepartmentDAO extends DBContext {
     
     /**
      * Lấy tất cả departments
+     * @return 
      */
     public List<Department> getAllDepartments() {
         List<Department> departments = new ArrayList<>();
@@ -33,6 +34,8 @@ public class DepartmentDAO extends DBContext {
     
     /**
      * Lấy department theo ID
+     * @param id
+     * @return 
      */
     public Department getDepartmentById(int id) {
         String sql = "SELECT * FROM Department WHERE id = ?";

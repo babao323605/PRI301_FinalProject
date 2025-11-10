@@ -15,7 +15,6 @@
             min-height: 100vh;
             padding: 20px 0;
         }
-        
         .agenda-header-section {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -651,7 +650,6 @@
             const now = new Date();
             const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
             const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0);
-            
             document.getElementById('fromDate').value = formatDate(firstDay);
             document.getElementById('toDate').value = formatDate(lastDay);
             document.getElementById('filterForm').submit();

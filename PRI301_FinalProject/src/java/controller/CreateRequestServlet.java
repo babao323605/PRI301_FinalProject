@@ -28,6 +28,10 @@ public class CreateRequestServlet extends HttpServlet {
     
     /**
      * GET - Hiển thị form tạo đơn
+     * @param request
+     * @param response
+     * @throws jakarta.servlet.ServletException
+     * @throws java.io.IOException
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -38,6 +42,10 @@ public class CreateRequestServlet extends HttpServlet {
     
     /**
      * POST - Xử lý tạo đơn
+     * @param request
+     * @param response
+     * @throws jakarta.servlet.ServletException
+     * @throws java.io.IOException
      */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

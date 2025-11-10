@@ -15,6 +15,8 @@ public class DBContext {
     private static final String DB_PASSWORD = "12345";
     /**
      * Lấy kết nối đến database
+     * @return 
+     * @throws java.sql.SQLException
      */
     public Connection getConnection() throws SQLException {
         try {
@@ -27,19 +29,20 @@ public class DBContext {
     
     /**
      * Đóng kết nối
+     * @param conn
      */
     public void closeConnection(Connection conn) {
         if (conn != null) {
             try {
                 conn.close();
             } catch (SQLException e) {
-                e.printStackTrace();
             }
         }
     }
     
     /**
      * Test kết nối database
+     * @param args
      */
     public static void main(String[] args) {
         DBContext db = new DBContext();
